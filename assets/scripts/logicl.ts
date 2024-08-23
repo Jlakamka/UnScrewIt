@@ -4,11 +4,12 @@ const { ccclass, property } = _decorator;
 @ccclass('logicl')
 export class logicl extends Component {
     start() {
-
+        console.log('test')
     }
 
     update(deltaTime: number) {
         
     }
 }
-
+
+
